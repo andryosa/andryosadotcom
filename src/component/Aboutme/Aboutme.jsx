@@ -22,7 +22,7 @@ const Aboutme = () => {
             <div className='divLeft'>
             <div className='aboutmeText'>
                 <div className='story'>
-                    <h1>About Me</h1>
+                    <h1>About Me!</h1>
                     <p className='aboutMePar'>My Name is Andri, I worked on creative industry since 2014 as Graphic Designer and Illustrator, 
                         I've studied on Visual Communication Design at <a className='linkCampus1' href="https://isi.ac.id/" target="_blank">Institute Seni Indonesia (Yogyakarta)</a>, 
                         and I've graduated and get my Bachelor degree in 2015.
