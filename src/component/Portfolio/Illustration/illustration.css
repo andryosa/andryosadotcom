@@ -1,0 +1,120 @@
+.illustration-mainDiv{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.illustration-explaination{
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    right: 0;
+    z-index: 99;
+}
+
+.text-illustration-fix{
+    width: inherit;
+    height: 100vh;
+    position: fixed;
+    background-color: #ededed;
+    right: 0;
+}
+
+.illustration-text{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    color: #333333;
+}
+
+.illustration-text>p{
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.illustration-title1{
+    color: #ff0000;
+}
+
+.illustration-title2{
+    color: #971919;
+}
+
+.illustration-title3{
+    color: #f15913;
+}
+
+.illustration-foto{
+    padding-top: 100px;
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.illu-foto{
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.text-big-hide{
+    display: none;
+    margin-bottom: 40px;
+    width: 75%;
+}
+
+
+@media only screen and (max-width: 1025px){
+    .illustration-mainDiv{
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .illustration-explaination{
+        width: 100%;
+        display: none;
+    }
+
+    .illustration-text{
+        position: unset;
+        margin-bottom: 50px;
+        color: #333333;
+    }
+
+    .illustration-foto{
+        width: 100%;
+    }
+
+    .text-illustration-fix{
+        height: unset;
+        position: unset;
+        background-color: unset;
+    }
+
+    .text-big-hide{
+        display: block;
+    }
+
+    .illu-foto{
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 813px){
+    .illu-foto{
+        width: 80%;
+    }
+}

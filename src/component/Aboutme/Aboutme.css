@@ -1,0 +1,248 @@
+.Aboutme{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 80rem;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-attachment: fixed;
+}
+
+.hiden{
+    display: none;
+}
+
+.shown{
+    display: block;
+    padding-bottom: 100px;
+    color: white;
+    margin: 0;
+    width: 80%;
+}
+
+.fooot{
+    z-index: 99;
+}
+
+.aboutmeText{
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+}
+
+.story{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.aboutMePar{
+    width: 70%;
+}
+
+
+.myidea{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.point{
+    width: 30%;
+}
+
+.abt-icon{
+    width: 32%;
+    background-color: grey;
+    border-radius: 50%;
+    transition-duration: 1s;
+}
+
+.abt-icon:hover{
+    background-image: linear-gradient(
+        to bottom left, 
+        #7300bf,
+        #0098A8
+        );
+    transition-duration: 1s;
+}
+
+.texDiv1>p{
+    line-height: unset;
+}
+
+.hid{
+    display: none;
+}
+
+.sho{
+    display: block;
+}
+
+.linkCampus{
+    color: white;
+}
+
+.linkCampus:hover{
+    color: rgb(75, 120, 255);
+}
+
+.linkCampus1{
+    color: grey;
+}
+
+.linkCampus1:hover{
+    color: rgb(75, 120, 255);
+}
+
+.tables{
+    width: 100%;
+}
+
+.theTable{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
+
+
+.incru{
+    color: white;
+}
+
+.incru:hover{
+    color: slateblue;
+}
+
+td{
+    border-bottom: 0.5px white solid;
+    border-collapse: unset;
+}
+
+.abttableTitle{
+    width: 20%;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.abttableData{
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.abttableData1{
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.abttableData2{
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.decoDiv{
+    width: 35%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(
+        to bottom left,
+        #7300bf,
+        #0098A8        
+      ); */
+      background-image: url('../image/pic-bg-color.png');
+      background-size: cover;
+      background-position-x: right;
+      background-position-y: bottom;
+
+    position: fixed;
+    right: 0;
+    z-index: 70;
+}
+
+
+@media only screen and (max-width: 1025px){
+
+    .intro-text2{
+        width: 100%;
+        /* height: unset; */
+    }
+
+    .aboutmeText{
+        margin-top: 130px;
+    }
+
+    .aboutMePar{
+        width: 80%;
+        /* margin-top: 200px; */
+        margin-bottom: 70px;
+    }
+
+    .myidea{
+        width: 100%;
+        height: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .point{
+        width: 80%;
+        height: 300px;
+    }
+
+    .abt-icon{
+        width: 30%;
+    }
+
+    .decoDiv{
+        background-position-x: center;
+    }
+}
+
+@media only screen and (max-width: 813px){
+    .aboutmeText{
+        margin-top: 130px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .aboutmeText{
+        margin-top: 130px;
+    }
+
+    .aboutmeText{
+        width: 100%;
+    }
+    .decoDiv{
+        display: none;
+    }
+}

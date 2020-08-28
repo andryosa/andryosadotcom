@@ -1,0 +1,112 @@
+.mainDiv1{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-image: url('../image/bg-abstract.png'); */
+    background-repeat: no-repeat;
+    background-size: 80rem;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-attachment: fixed;
+}
+
+.intro-text{
+    width: 65%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nametag{
+    width: 50%;
+}
+.nameImg{
+    width: 40%;
+}
+
+.contact-icondiv1{
+    width: 250px;
+    margin-top: 10px;
+}
+
+.coniconpic{
+    width: 50px;
+    background-color: grey;
+}
+
+.coniconpic:hover{
+    background-image: linear-gradient(
+        to bottom left, 
+        #7300bf,
+        #0098A8
+        );
+}
+
+.intro-pic{
+    width: 35%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(
+        to bottom left, 
+        #0098A8, 
+        #7300bf
+      ); */
+      background-image: url('../image/pic-bg.png');
+      background-size: cover;
+      background-position-x: right;
+      background-position-y: bottom;
+      /* background-attachment: fixed; */
+    z-index: 99;
+
+}
+
+.myPic{
+    width: 95%;
+}
+
+@media only screen and (max-width: 1025px){
+    .mainDiv1{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .intro-text{
+        width: 100%;
+    }
+
+    .nametag{
+        /* width: 35%; */
+        margin-top: 200px;
+        /* margin-bottom: 200px; */
+    }
+
+    .contact-icondiv1{
+        margin-top: 40px;
+        margin-bottom: 150px;
+    }
+
+    .intro-pic{
+        width: 100%;
+        background-position-y: center;
+        height: 500px;
+    }
+
+    .myPic{
+        width: unset;
+        height: 75%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .myPic{
+        width: unset;
+        height: 75%;
+    }
+}

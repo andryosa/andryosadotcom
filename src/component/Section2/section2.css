@@ -1,0 +1,124 @@
+.mainDiv2{
+    width: 100vw;
+    height: 60vh;
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 80rem;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-attachment: fixed;
+}
+
+.intro-text2{
+    width: 65%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.aboutMePar{
+    width: 70%;
+}
+
+.linkIsi{
+    color: white;
+}
+
+.linkIsi:hover{
+    color: rgb(75, 120, 255);
+}
+
+.personalData{
+    width: 35%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(
+        to bottom left,
+        #7300bf,
+        #0098A8        
+      ); */
+      /* background-image: url('../image/pic-bg.png');
+      background-size: cover;
+      background-position-x: right;
+      background-position-y: bottom; */
+    z-index: 99;
+
+}
+
+table{
+    color: white;
+    width: 80%;
+}
+
+td{
+    border-bottom: 0.5px grey solid;
+}
+
+.tableTitle{
+    width: 40%;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.tableData{
+    width: 40%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.hideAbout{
+    display: none;
+    transition-duration: 1s;
+}
+
+.showAbout{
+    display: block;
+    transition-duration: 1s;
+}
+
+
+@media only screen and (max-width: 1025px){
+    .mainDiv2{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .intro-text2{
+        width: 100%;
+        /* height: unset; */
+    }
+
+    .aboutMePar{
+        width: 80%;
+        /* margin-top: 200px; */
+        margin-bottom: 70px;
+    }
+
+    .personalData{
+        width: 100%;
+        background-position-y: center;
+        /* height: 500px; */
+        margin-bottom: 70px;
+
+    }
+
+    .myPic{
+        width: unset;
+        height: 75%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+}

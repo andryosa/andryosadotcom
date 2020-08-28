@@ -1,0 +1,46 @@
+.footermainDiv{
+    width: 100vw;
+    height: 30vh;
+    /* background-color: #333333; */
+    background-image: linear-gradient(
+        to bottom left, 
+        #7300bf,
+        #0098A8
+        );
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    z-index: 99;
+}
+
+.contact-icondiv2{
+    width: 260px;
+    margin-top: 10px;
+}
+
+.coniconpic2{
+    width: 50px;
+    border: rgba(255, 255, 255, 0) 1px solid;
+    transition-duration: 0.5s;
+    /* background-color: grey; */
+}
+
+.coniconpic2:hover{
+    border: white 1px solid;
+    transition-duration: 0.5s;
+}
+
+
+@media only screen and (max-width: 1025px){
+    .footermainDiv{
+        flex-direction: column;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+
+}

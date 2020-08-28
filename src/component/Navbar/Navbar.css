@@ -1,0 +1,156 @@
+.nav{
+    position: fixed;
+}
+
+.nav-bg-none{
+    /* top: 0.5%; */
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 999;
+}
+
+.nav-bg-white{
+    /* top: 0.5%; */
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.932);
+    z-index: 5;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-family: Helvetica;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.toggl{
+    display: none;
+}
+
+.toggl>li{
+    list-style: none;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.links>li{
+    color: #333333;
+    padding: 10px;
+    margin: 20px;
+    border: rgba(255, 217, 0, 0) 3px solid;
+    transition-duration: 0.5s;
+}
+
+li>img{
+    height: 30px;
+    margin: 5px;
+}
+
+li:nth-child(1):hover{
+    border: none;
+}
+
+.links>li:hover{
+    color: #7300bf;
+    /* border-image: linear-gradient(to bottom left, #0098A8, #7300bf);
+    border-width: 2px;
+    border-style: solid; */
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom left, 
+      #0098A8, 
+      #7300bf
+    ) 5 ;
+    transition-duration: 1s;
+}
+
+
+@media only screen and (max-width: 1025px){
+    .nav-bg-none{
+        background-color: #33333391;
+        background-image: linear-gradient(
+        to bottom left, 
+        #7300bf,
+        #0098A8
+        );
+        z-index: 100;
+    }
+
+    .nav-bg-white{
+        background-color: #33333391;
+        background-image: linear-gradient(
+        to bottom left, 
+        #7300bf,
+        #0098A8
+        );
+        z-index: 100;
+    }
+
+    ul{
+        display: unset;
+    }
+
+    .toggl{
+        display: block;
+    }
+
+    .nav-links{
+        display: unset;
+        width: auto;
+    }
+
+    .sign{
+        display: unset;
+    }
+
+    .links>li{
+        border: rgba(255, 255, 255, 0) 2px solid;
+        margin: 5px;
+        color: white;
+    }
+
+    .links>li:hover{
+        color: white;
+        /* background-color: #0098A8; */
+        border: white 2px solid;
+    }
+
+    .hide{
+        display: none;
+        animation: 0.5s ease-out out;
+    }
+
+    .show{
+        display: block;
+        animation: 0.5s ease-out in;
+    }
+
+    .bgGrey{
+        background-color: #33333391;
+    }
+
+    .hide{
+        display: none;
+        animation: 0.5s ease-out out;
+    }
+    
+    .show{
+        display: block;
+        /* background-color: #33333391; */
+        animation: 0.5s ease-out in;
+    }
+}

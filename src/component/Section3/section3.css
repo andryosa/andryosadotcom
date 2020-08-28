@@ -1,0 +1,82 @@
+.mainDiv3{
+    width: 100vw;
+    /* height: 50vh; */
+    background-color: #333333;
+    /* background-image: linear-gradient(
+        to bottom left, 
+        #7300bf,
+        #0098A8
+        ); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.intro-text3{
+    width: 100%;
+    color: white;
+}
+
+.div3content{
+    width: inherit;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: aquamarine; */
+}
+
+.whaticando{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom left, 
+      #0098A8, 
+      #7300bf
+    ) 5 ;
+    /* border: white 2px solid; */
+}
+
+.dg-icons{
+    width: 150px;
+    align-self: center;
+    opacity: 40%;
+}
+
+.whaticando>p{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+
+@media only screen and (max-width: 1025px){
+    .mainDiv3{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .div3content{
+        width: inherit;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+    }
+
+    .whaticando{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+
+}

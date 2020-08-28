@@ -1,0 +1,379 @@
+.portfolio-mainDiv{
+    width: 100vw;
+    /* height: 100vh; */
+    padding-top: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.myportfoliotittle{
+    width: 200px;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+    color: #7300bf;
+    border-width: 5px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom left, 
+      #0098A8, 
+      #7300bf
+    ) 5 ;
+    align-self: center;
+    padding: 5px;
+    /* justify-self: center; */
+}
+
+.portoficon1{
+    width: 50px;
+    align-self: center;
+}
+
+.portoficon{
+    width: 70px;
+    align-self: center;
+}
+
+.worktypeTittle{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: grey;
+    font-size: 30px;
+}
+
+.worktypeTittle2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: grey;
+    font-size: 30px;
+
+}
+
+.rowform{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 100px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.portfolio-secondDiv{
+    width: 50%;
+    /* height: 100vh; */
+    /* padding-top: 100px; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.portfolio-thirddDiv{
+    width: 40%;
+    /* height: 100vh; */
+    /* padding-top: 100px; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Corporat */
+
+.thema{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.themaver{
+    margin-top: -14px;
+    width: 450px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.themaCalver{
+    margin-top: -14px;
+    width: 450px;
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* margin-bottom: 20px; */
+}
+
+.corpoDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.corporate-1{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+.corpoimg{
+    width: 270px;
+    z-index: 3;
+    position: absolute;
+}
+
+.newsDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.news{
+    width: 610px;
+    /* height: 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border: 1px rgb(192, 190, 190) solid; */
+    margin: 5px;
+}
+
+.newsver{
+    width: 400px;
+    /* height: 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: 100% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border: 1px rgb(192, 190, 190) solid; */
+    margin: 5px;
+}
+
+.newsimg{
+    width: 570px;
+    z-index: 3;
+    position: absolute;
+}
+
+.newsimgver{
+    width: 400px;
+    z-index: 3;
+    position: absolute;
+}
+
+.insert{
+    width: 240px;
+    height: 170px;
+    background-color: rgba(44, 44, 44, 0.253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+    opacity: 0;
+    z-index: 4;
+}
+
+.insert:hover{
+    opacity: 100%;
+}
+
+.insert2{
+    width: 540px;
+    height: 390px;
+    background-color: rgba(44, 44, 44, 0.253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+    opacity: 0;
+    z-index: 4;
+}
+
+.insert2:hover{
+    opacity: 100%;
+}
+
+.insert2ver{
+    width: 370px;
+    height: 700px;
+    margin-top: 19px;
+    background-color: rgba(44, 44, 44, 0.253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+    opacity: 0;
+    z-index: 4;
+}
+
+.insert2ver:hover{
+    opacity: 100%;
+}
+
+.insertCalver{
+    width: 370px;
+    height: 362px;
+    margin-top: 19px;
+    background-color: rgba(44, 44, 44, 0.253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+    opacity: 0;
+    z-index: 4;
+}
+
+.insertCalver:hover{
+    opacity: 100%;
+}
+
+.link-port{
+    width: 100%;
+    height: 100%;
+    margin: 5px;  
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+.link-port2{
+    width: 100%;
+    height: 100%;
+    margin: 5px;  
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.corporate-img{
+    width: 100%;
+    border: 1px rgb(172, 172, 172) solid;
+}
+
+.bigscreenhide{
+    display: none;
+}
+
+/* Corporate End */
+
+@media only screen and (max-width: 1025px){
+    .rowform{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .portfolio-secondDiv{
+        width: 100%;
+    }
+    .thema{
+        width: 100%;
+    }
+
+    .corpoDiv{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .corporate-1{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .corpoimg{
+        width: 400px;
+    }
+
+    .insert{
+        width: 370px;
+        height: 260px;
+    }
+
+    .link-port{
+        font-size: x-large;
+    }
+
+    .news{
+        width: 400px;
+    }
+
+    .newsimg{
+        width: 400px;
+    }
+
+    .insert2{
+        width: 370px;
+        height: 260px;
+    }
+
+    .bigscreenhide{
+        display: block;
+    }
+
+    .portfolio-thirddDiv{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+    .corpoimg{
+        width: 300px;
+    }
+
+    .insert{
+        width: 270px;
+        height: 190px;
+    }
+
+    .news{
+        width: 100%;
+    }
+
+    .newsimg{
+        width: 300px;
+    }
+
+    .insert2{
+        width: 270px;
+        height: 190px;
+    }
+
+    .worktypeTittle{
+        font-size: 25px;
+    }
+    
+    .worktypeTittle2{
+        font-size: 25px;
+    }
+}
