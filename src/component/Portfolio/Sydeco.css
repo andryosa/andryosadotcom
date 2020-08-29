@@ -74,10 +74,12 @@
         flex-direction: column-reverse;
         justify-content: flex-end;
         align-items: center;
+        height: auto;
     }
 
     .corporate-explaination{
         width: 100%;
+        height: auto;
     }
 
     .corporate-text{
@@ -88,6 +90,8 @@
 
     .corporate-foto{
         width: 100%;
+        /* justify-content: flex-start; */
+        /* align-items: flex-start; */
     }
 
     .text-pos-fix{

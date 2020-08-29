@@ -207,7 +207,8 @@ td{
 
     .myidea{
         width: 100%;
-        height: unset;
+        height: auto;
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
         justify-content: center;

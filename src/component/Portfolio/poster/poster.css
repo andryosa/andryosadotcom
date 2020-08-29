@@ -73,6 +73,7 @@
         flex-direction: column-reverse;
         justify-content: flex-end;
         align-items: center;
+        height: auto;
     }
 
     .poster-explaination{

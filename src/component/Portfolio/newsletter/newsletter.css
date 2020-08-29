@@ -34,6 +34,7 @@
     flex-direction: column;
     /* justify-content: space-around; */
     color: #333333;
+    height: auto;
 }
 
 .newsletter-text>p{
@@ -73,6 +74,7 @@
         flex-direction: column-reverse;
         justify-content: flex-end;
         align-items: center;
+        height: auto;
     }
 
     .newsletter-explaination{

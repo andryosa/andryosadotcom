@@ -8,16 +8,16 @@ import asuji3 from '../image/port/asuji3.png';
 
 const Asuji = () => {
     return(
-        <div className='corporate-mainDiv'>
-            <div className='corporate-foto'>
-                        <img className='sydeco-foto' src={asuji1} alt=""/>
-                        <img className='sydeco-foto' src={asuji2} alt=""/>
-                        <img className='sydeco-foto' src={asuji3} alt=""/>
+        <div className='corporate-asuji-mainDiv'>
+            <div className='corporate-asuji-foto'>
+                        <img className='asuji-foto' src={asuji1} alt=""/>
+                        <img className='asuji-foto' src={asuji2} alt=""/>
+                        <img className='asuji-foto' src={asuji3} alt=""/>
             </div>
 
-            <div className='corporate-explaination'> 
-                <div className='text-pos-fix'>
-                <div className='corporate-text'>
+            <div className='corporate-asuji-explaination'> 
+                <div className='text-asuji-pos-fix'>
+                <div className='corporate-asuji-text'>
                 <h2>Corporate Design</h2>
                 <h1 className='asuji-title'>Asuji</h1>
                 <h3>2016</h3>

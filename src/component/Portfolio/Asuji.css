@@ -1,4 +1,4 @@
-.corporate-mainDiv{
+.corporate-asuji-mainDiv{
     width: 100vw;
     height: 100vh;
     background-color: white;
@@ -8,7 +8,7 @@
     align-items: start;
 }
 
-.corporate-explaination{
+.corporate-asuji-explaination{
     width: 35%;
     height: 100vh;
     display: flex;
@@ -19,13 +19,13 @@
     z-index: 99;
 }
 
-.text-pos-fix{
+.text-asuji-pos-fix{
     height: 100vh;
     position: fixed;
     background-color: #ededed;
 }
 
-.corporate-text{
+.corporate-asuji-text{
     padding-top: 100px;
     width: inherit;
     display: flex;
@@ -35,7 +35,7 @@
 
 }
 
-.corporate-text>p{
+.corporate-asuji-text>p{
     padding-left: 40px;
     padding-right: 40px;
 
@@ -45,7 +45,7 @@
     color: #C86EAB;
 }
 
-.corporate-foto{
+.corporate-asuji-foto{
     padding-top: 100px;
     width: 65%;
     height: auto;
@@ -56,34 +56,35 @@
     color: #333333;
 }
 
-.sydeco-foto{
+.asuji-foto{
     width: 60%;
     margin-bottom: 20px;
 }
 
 
 @media only screen and (max-width: 1025px){
-    .corporate-mainDiv{
+    .corporate-asuji-mainDiv{
         flex-direction: column-reverse;
         justify-content: flex-end;
         align-items: center;
+        height: auto;
     }
 
-    .corporate-explaination{
+    .corporate-asuji-explaination{
         width: 100%;
     }
 
-    .corporate-text{
+    .corporate-asuji-text{
         position: unset;
         margin-bottom: 50px;
         color: #333333;
     }
 
-    .corporate-foto{
+    .corporate-asuji-foto{
         width: 100%;
     }
 
-    .text-pos-fix{
+    .text-asuji-pos-fix{
         height: unset;
         position: unset;
         background-color: unset;
@@ -91,7 +92,7 @@
 }
 
 @media only screen and (max-width: 813px){
-    .sydeco-foto{
+    .sydeco-asuji-foto{
         width: 80%;
     }
 }

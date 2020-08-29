@@ -23,7 +23,7 @@ const Sydeco = () => {
                         <img className='sydeco-foto' src={sydeco6} alt=""/>
                         <img className='sydeco-foto' src={sydeco7} alt=""/>
             </div>
-
+ 
             <div className='corporate-explaination'> 
                 <div className='text-pos-fix'>
                 <div className='corporate-text'>
