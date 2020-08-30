@@ -199,7 +199,7 @@
 }
 
 .insert:hover{
-    opacity: 100%;
+    opacity: unset;
 }
 
 .insert2{
@@ -249,7 +249,7 @@
 }
 
 .insertCalver:hover{
-    opacity: 100%;
+    opacity: unset;
 }
 
 .link-port{
