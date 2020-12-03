@@ -50,6 +50,18 @@
 
 }
 
+.portoBtn{
+    margin: 10px;
+    padding: 5px;
+    color: #7300bf;
+    border: 2px solid #7300bf;
+}
+
+.portoBtn:hover{
+    color: #0098A8;
+    border: 2px solid #0098A8;
+}
+
 .rowform{
     width: 100vw;
     display: flex;

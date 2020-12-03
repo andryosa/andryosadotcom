@@ -8,7 +8,7 @@ import asuji3 from '../image/port/asuji3.png';
 
 const Asuji = () => {
     return(
-        <div className='corporate-asuji-mainDiv'>
+        <div className='corporate-asuji-mainDiv desgraf'>
             <div className='corporate-asuji-foto'>
                         <img className='asuji-foto' src={asuji1} alt=""/>
                         <img className='asuji-foto' src={asuji2} alt=""/>

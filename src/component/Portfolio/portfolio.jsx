@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './portfolio.css';
 import corporate1 from '../image/port/corporate-01.png';
@@ -19,19 +19,39 @@ import dgiicon from '../image/portfolioicongrey.png';
 import webicon from '../image/webicon.png';
 import covmicrositever2 from '../image/port/covermicrositever2.png';
 import covtradekarma from '../image/port/cover-tradekarma.png';
+import covnatur from '../image/port/cover-naturheilpraxis.png';
 
 
 
 const Portfolio = () => {
     //const [hideText1, setText1] = useState(false);//
     //const [hideText2, setText2] = useState(false);//
+    const [hideDesgraf, setDesgraf] = useState(false);
+    const incrumentDesgraf = () => {
+        setDesgraf(!hideDesgraf)
+    }
+
+    const [hideWebdes, setWebdes] = useState(false);
+    const incrumentWeb = () => {
+        setWebdes(!hideWebdes)
+    }
+
     return(
         <div>
         <div className='portfolio-mainDiv'>
         <h1 className='myportfoliotittle'>My Portfolio</h1>
-            <h2 className='worktypeTittle'><img src={dgiicon} alt="" className='portoficon'/>Graphic Design & Illustration</h2>
+            {/* <Link className='togleDesgraf' onClick={incrumentDesgraf}>Graphic Design</Link>
+            <Link className='togleWebdes' onClick={incrumentWeb}>Frontend Design</Link> */}
+        <div>
+            <a className='portoBtn' href="#desGraf">Graphic Design</a>
+            <a className='portoBtn' href="#webDes">Frontend Design</a>
+        </div>
 
-         <div className='rowform'>
+         {/* <div className={hideDesgraf? "hiden" : "shown", hideWebdes? "shown" : "hiden"}> */}
+         <div id='desGraf'>
+
+            <h2 className='worktypeTittle'><img src={dgiicon} alt="" className='portoficon'/>Graphic Design & Illustration</h2>
+         <div className='rowform desgraf'>
             <div className='portfolio-secondDiv'>
             <div className='thema'>
                 <div className='corpoDiv'>
@@ -185,11 +205,28 @@ const Portfolio = () => {
 
             </div>
         </div>
+        </div>
 
-        <h2 className='worktypeTittle2'><img src={webicon} alt="" className='portoficon'/>Website & App</h2>
+        {/* <div className={hideDesgraf? "shown" : "hiden", hideWebdes? "hiden" : "shown"}> */}
+        <div id='webDes'>
 
-        <div className='rowform'>
+            <h2 className='worktypeTittle2'><img src={webicon} alt="" className='portoficon'/>Website & App</h2>
+
+        <div className='rowform webdes'>
             <div className='portfolio-secondDiv'>
+
+            <div className='thema'>
+                <div className='newsDiv'>
+                    <div className='news'>
+                                <img className='newsimg' src={covnatur} alt=""/>
+                                <div className='insert2'>
+                                <a className='link-port2' href='https://naturheilpraxis-holthausen.de//' target='_blank'>
+                                    Web Design for Class Group <br/> (Future Developer)
+                                </a>
+                                </div>
+                    </div>
+                </div>
+            </div>
 
             <div className='thema'>
                 <div className='newsDiv'>
@@ -272,6 +309,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         {/* <Footer/> */}
         </div>

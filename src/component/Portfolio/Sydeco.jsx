@@ -13,7 +13,7 @@ import sydeco7 from '../image/port/sydeco7.png';
 const Sydeco = () => {
     return(
         <div>
-        <div className='corporate-mainDiv'>
+        <div className='corporate-mainDiv desgraf'>
             <div className='corporate-foto'>
                         <img className='sydeco-foto' src={sydeco1} alt=""/>
                         <img className='sydeco-foto' src={sydeco2} alt=""/>
