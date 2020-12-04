@@ -46,9 +46,9 @@ const Portfolio = () => {
             <a className='portoBtn' href="#desGraf">Graphic Design</a>
             <a className='portoBtn' href="#webDes">Frontend Design</a>
         </div>
-
+            <div className='flex-container'>
          {/* <div className={hideDesgraf? "hiden" : "shown", hideWebdes? "shown" : "hiden"}> */}
-         <div id='desGraf'>
+         <div id='desGraf' className='flex-item'>
 
             <h2 className='worktypeTittle'><img src={dgiicon} alt="" className='portoficon'/>Graphic Design & Illustration</h2>
          <div className='rowform desgraf'>
@@ -208,7 +208,7 @@ const Portfolio = () => {
         </div>
 
         {/* <div className={hideDesgraf? "shown" : "hiden", hideWebdes? "hiden" : "shown"}> */}
-        <div id='webDes'>
+        <div id='webDes' className='flex-item'>
 
             <h2 className='worktypeTittle2'><img src={webicon} alt="" className='portoficon'/>Website & App</h2>
 
@@ -221,7 +221,7 @@ const Portfolio = () => {
                                 <img className='newsimg' src={covnatur} alt=""/>
                                 <div className='insert2'>
                                 <a className='link-port2' href='https://naturheilpraxis-holthausen.de//' target='_blank'>
-                                    Web Design for Class Group <br/> (Future Developer)
+                                    Wordpress Website <br/> naturheilpraxis-holthausen.de
                                 </a>
                                 </div>
                     </div>
@@ -309,6 +309,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         </div>
         {/* <Footer/> */}
