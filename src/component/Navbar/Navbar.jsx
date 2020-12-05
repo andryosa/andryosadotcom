@@ -22,16 +22,16 @@ const Navbar = props => {
                     <Link className='toggl' onClick={incrument}>
                         <li><img src={iconn} alt="" className='logo' /></li>
                     </Link>
-                    <Link className='links' to='/'>
+                    <Link className='links' to='/' onClick={incrument}>
                         <li className={hideNav ? "hide" : "show"}>Home</li>
                     </Link>
-                    <Link className='links' to='/aboutme'>
+                    <Link className='links' to='/aboutme' onClick={incrument}>
                         <li className={hideNav ? "hide" : "show"}>About Me</li>
                     </Link>
-                    <Link className='links' to='/portfolio'>
+                    <Link className='links' to='/portfolio' onClick={incrument}>
                         <li className={hideNav ? "hide" : "show"}>Portfolio</li>
                     </Link>
-                    <Link className='links' to='/contact'>
+                    <Link className='links' to='/contact' onClick={incrument}>
                         <li className={hideNav ? "hide" : "show"}>Contact</li>
                     </Link>
                 </div>
