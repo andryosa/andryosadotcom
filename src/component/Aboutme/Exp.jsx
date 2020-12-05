@@ -19,6 +19,11 @@ const Exp = () => {
                     <Link className='incru' onClick={incrumentExp}><h2>Experience <span>{rotate? <>&#8681;</> : <>&#8679;</>}</span></h2></Link>
                     <table className={hideExp? "hiden" : "shown"}>
                         <tr>
+                            <td className='abttableTitle'>2020-Now</td>
+                            <td className='abttableData1'>Freelance</td>
+                            <td className='abttableData2'>Frontend Developer & Graphic Designer</td>
+                        </tr>
+                        <tr>
                             <td className='abttableTitle'>2015-2019</td>
                             <td className='abttableData1'>Freelance</td>
                             <td className='abttableData2'>Graphic Designer & Illustrator</td>
