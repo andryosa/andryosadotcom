@@ -46,8 +46,22 @@ const Portfolio = () => {
             <a className='portoBtn' href="#desGraf">Graphic Design</a>
             <a className='portoBtn' href="#webDes">Frontend Design</a>
         </div>
-            <div className='flex-container'>
+        <div className='recentPro'>
+            <h3 className="worktypeTittle"><img src={webicon} alt="" className='portoficon'/>My Recent Project :</h3>
+                <div className='newsDiv'>
+                    <div className='news'>
+                                <img className='newsimg' src={covnatur} alt=""/>
+                                <div className='insert2'>
+                                <a className='link-port2' href='https://naturheilpraxis-holthausen.de//' target='_blank'>
+                                    Wordpress Website <br/> naturheilpraxis-holthausen.de
+                                </a>
+                                </div>
+                    </div>
+                </div>
+        </div>
+        <div className='flex-container'>
          {/* <div className={hideDesgraf? "hiden" : "shown", hideWebdes? "shown" : "hiden"}> */}
+         
          <div id='desGraf' className='flex-item'>
 
             <h2 className='worktypeTittle'><img src={dgiicon} alt="" className='portoficon'/>Graphic Design & Illustration</h2>
