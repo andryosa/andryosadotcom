@@ -26,7 +26,7 @@ const Contact = props => {
                             </tr>
 
                             <tr>
-                                <td className='contableTitle'>Address</td>
+                                <td className='contableTitle'>Location</td>
                                 <td className='contableData1'>Eppendorf, Hamburg, Germany</td>
                             </tr>
                         </table>

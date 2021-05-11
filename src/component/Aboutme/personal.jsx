@@ -22,10 +22,6 @@ const Personal = () => {
                             <td className='abttableData1'>Andri William</td>
                         </tr>
                         <tr>
-                            <td className='abttableTitle'>Place, Date of Birth</td>
-                            <td className='abttableData1'>Surabaya 30 April 1991</td>
-                        </tr>
-                        <tr>
                             <td className='abttableTitle'>Hobbies</td>
                             <td className='abttableData1'>Drawing, Cooking, Sport (Bouldering / Wall Climbing)</td>
                         </tr>
@@ -34,7 +30,7 @@ const Personal = () => {
                             <td className='abttableData1'>Javanese, Bahasa Indonesia, English, Deutsch</td>
                         </tr>
                         <tr>
-                            <td className='abttableTitle'>Address</td>
+                            <td className='abttableTitle'>Location</td>
                             <td className='abttableData1'>Eppendorf, Hamburg, Germany</td>
                         </tr>
                     </table>
