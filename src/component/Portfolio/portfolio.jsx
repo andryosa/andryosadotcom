@@ -256,18 +256,18 @@ const Portfolio = () => {
                 </div>
             </div>
 
-            <div className='thema'>
+            {/* <div className='thema'>
                 <div className='newsDiv'>
                     <div className='news'>
                                 <img className='newsimg' src={covfdev} alt=""/>
                                 <div className='insert2'>
                                 <a className='link-port2' href='https://andryosa.github.io/Future-Developer-G1/' target='_blank'>
-                                    Web Design for Class Group <br/> (Future Developer)
+                                    Website Task <br/> Future Developer
                                 </a>
                                 </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className='thema'>
                 <div className='newsDiv'>
@@ -298,6 +298,19 @@ const Portfolio = () => {
             <div className='thema bigscreenhide'>
                 <div className='newsDiv'>
                     <div className='news'>
+                                <img className='newsimg' src={covfdev} alt=""/>
+                                <div className='insert2'>
+                                <a className='link-port2' href='https://andryosa.github.io/Future-Developer-G1/' target='_blank'>
+                                    Website Task <br/> Future Developer
+                                </a>
+                                </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='thema bigscreenhide'>
+                <div className='newsDiv'>
+                    <div className='news'>
                                 <img className='newsimg' src={covmicrosite} alt=""/>
                                 <div className='insert2'>
                                 <a className='link-port2' href='https://andryosa.github.io/Final-Project/' target='_blank'>
@@ -311,6 +324,20 @@ const Portfolio = () => {
             </div>
 
             <div className='portfolio-thirddDiv'>
+
+            <div className='themaCalver'>
+                    <div className='newsDivver'>
+                        <div className='newsver'>
+                                <img className='newsimgver' src={covfdev} alt=""/>
+                                <div className='insertCalver'>
+                                <a className='link-port2' href='https://andryosa.github.io/Future-Developer-G1/' target='_blank'>
+                                    Website Task <br/> Future Developer
+                                </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div className='themaCalver'>
                     <div className='newsDivver'>
                         <div className='newsver'>
