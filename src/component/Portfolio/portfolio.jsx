@@ -300,10 +300,10 @@ const Portfolio = () => {
             <div className='thema bigscreenhide'>
                 <div className='newsDiv'>
                     <div className='news'>
-                                <img className='newsimg' src={covcal} alt=""/>
+                                <img className='newsimg' src={covfdev} alt=""/>
                                 <div className='insert2'>
-                                <a className='link-port2' href='https://andryosa.github.io/Calculator/' target='_blank'>
-                                    Calculator App
+                                <a className='link-port2' href='https://andryosa.github.io/Future-Developer-G1/' target='_blank'>
+                                    Website Task <br/> Future Developer
                                 </a>
                                 </div>
                     </div>
@@ -313,10 +313,10 @@ const Portfolio = () => {
             <div className='thema bigscreenhide'>
                 <div className='newsDiv'>
                     <div className='news'>
-                                <img className='newsimg' src={covfdev} alt=""/>
+                                <img className='newsimg' src={covcal} alt=""/>
                                 <div className='insert2'>
-                                <a className='link-port2' href='https://andryosa.github.io/Future-Developer-G1/' target='_blank'>
-                                    Website Task <br/> Future Developer
+                                <a className='link-port2' href='https://andryosa.github.io/Calculator/' target='_blank'>
+                                    Calculator App
                                 </a>
                                 </div>
                     </div>
