@@ -9,6 +9,7 @@ import covcolor from '../image/port/covercoloring.png';
 import covgreetings from '../image/port/covergreeting.png';
 import covillu from '../image/port/coverillustration.png';
 import covfdev from '../image/port/coverfuturedev.png';
+import covfdev2 from '../image/port/coverfuturedev2.png';
 import covmicrosite from '../image/port/covermicrosite.png';
 import covcal from '../image/port/covercalculator.png';
 import covcalver from '../image/port/covercalculatorver.png';
@@ -21,6 +22,7 @@ import covmicrositever2 from '../image/port/covermicrositever2.png';
 import covtradekarma from '../image/port/cover-tradekarma.png';
 import covnatur from '../image/port/cover-naturheilpraxis.png';
 import covcode4you from '../image/port/cover-code4you.png';
+import covfitness from '../image/port/cover-fitnessstudio.png';
 
 
 
@@ -225,10 +227,23 @@ const Portfolio = () => {
         {/* <div className={hideDesgraf? "shown" : "hiden", hideWebdes? "hiden" : "shown"}> */}
         <div id='webDes' className='flex-item'>
 
-            <h2 className='worktypeTittle2'><img src={webicon} alt="" className='portoficon'/>Website & App</h2>
+            <h2 className='worktypeTittle2'><img src={webicon} alt="" className='portoficon'/>UI Design, Website & App</h2>
 
         <div className='rowform webdes'>
             <div className='portfolio-secondDiv'>
+
+            <div className='thema'>
+                <div className='newsDiv'>
+                    <div className='news'>
+                                <img className='newsimg' src={covfitness} alt=""/>
+                                <div className='insert2'>
+                                <a className='link-port2' href='https://www.figma.com/proto/qCOYtb1Dz5f4BWuPc3YJIa/Untitled?node-id=3%3A4&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A4' target='_blank'>
+                                    Fitness Studio
+                                </a>
+                                </div>
+                    </div>
+                </div>
+            </div>
 
             <div className='thema'>
                 <div className='newsDiv'>
@@ -328,7 +343,7 @@ const Portfolio = () => {
             <div className='themaCalver'>
                     <div className='newsDivver'>
                         <div className='newsver'>
-                                <img className='newsimgver' src={covfdev} alt=""/>
+                                <img className='newsimgver' src={covfdev2} alt=""/>
                                 <div className='insertCalver'>
                                 <a className='link-port2' href='https://andryosa.github.io/Future-Developer-G1/' target='_blank'>
                                     Website Task <br/> Future Developer
