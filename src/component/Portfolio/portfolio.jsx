@@ -20,6 +20,7 @@ import webicon from '../image/webicon.png';
 import covmicrositever2 from '../image/port/covermicrositever2.png';
 import covtradekarma from '../image/port/cover-tradekarma.png';
 import covnatur from '../image/port/cover-naturheilpraxis.png';
+import covcode4you from '../image/port/cover-code4you.png';
 
 
 
@@ -50,10 +51,10 @@ const Portfolio = () => {
             <h3 className="worktypeTittle"><img src={webicon} alt="" className='portoficon'/>My Recent Project :</h3>
                 <div className='newsDiv'>
                     <div className='news'>
-                                <img className='newsimg' src={covnatur} alt=""/>
+                                <img className='newsimg' src={covcode4you} alt=""/>
                                 <div className='insert2'>
-                                <a className='link-port2' href='https://naturheilpraxis-holthausen.de//' target='_blank'>
-                                    Wordpress Website <br/> naturheilpraxis-holthausen.de
+                                <a className='link-port2' href='https://code4you.com/' target='_blank'>
+                                    Wordpress Website <br/> code4you.com
                                 </a>
                                 </div>
                     </div>
@@ -228,6 +229,19 @@ const Portfolio = () => {
 
         <div className='rowform webdes'>
             <div className='portfolio-secondDiv'>
+
+            <div className='thema'>
+                <div className='newsDiv'>
+                    <div className='news'>
+                                <img className='newsimg' src={covcode4you} alt=""/>
+                                <div className='insert2'>
+                                <a className='link-port2' href='https://code4you.com/' target='_blank'>
+                                    Wordpress Website <br/> code4you.com
+                                </a>
+                                </div>
+                    </div>
+                </div>
+            </div>
 
             <div className='thema'>
                 <div className='newsDiv'>

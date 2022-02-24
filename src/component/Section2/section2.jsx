@@ -21,7 +21,7 @@ const Section2 = props => {
                     <br/><br/>
                     In the end of 2016, I moved to Hamburg, Germany, and there I have started one year course 
                     as web developer at <span title='Digital Career Institute'><a className='linkIsi' href="https://digitalcareerinstitute.org/">DCI</a></span> Hamburg on 2019 until 2020, 
-                    and now I work mostly as Frontend Developer and Graphic Designer.
+                    and now I work mostly as as Graphic Designer, UI Designer and Frontend Developer.
                      </p>
 
                      {/* <button onClick={incrumentAbout}>Read more!</button>  */}
