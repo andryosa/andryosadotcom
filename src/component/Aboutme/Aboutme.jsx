@@ -29,7 +29,7 @@ const Aboutme = () => {
                         <br/><br/>
                         In the end of 2016, I moved to Hamburg, Germany, and there I have started one year course 
                         as web developer at <span title='Digital Career Institute'><a className='linkCampus1' href="https://digitalcareerinstitute.org/">DCI</a></span> Hamburg on 2019 until 2020, 
-                        and now I work mostly as Graphic Designer UI Designer and Frontend Developer.
+                        and now I work mostly as Graphic Designer, UI Designer and Frontend Developer.
                     </p>
                 </div>
                 <div className='myidea'>
