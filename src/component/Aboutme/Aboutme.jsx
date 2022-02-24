@@ -23,13 +23,13 @@ const Aboutme = () => {
             <div className='aboutmeText'>
                 <div className='story'>
                     <h1>About Me!</h1>
-                    <p className='aboutMePar'>My Name is Andri, I worked on creative industry since 2014 as Graphic Designer and Illustrator, 
+                    <p className='aboutMePar'>My Name is Andri, I am working on creative industry since 2014 as Graphic Designer and Illustrator, 
                         I've studied on Visual Communication Design at <a className='linkCampus1' href="https://isi.ac.id/" target="_blank">Institute Seni Indonesia (Yogyakarta)</a>, 
                         and I've graduated and get my Bachelor degree in 2015.
                         <br/><br/>
                         In the end of 2016, I moved to Hamburg, Germany, and there I have started one year course 
                         as web developer at <span title='Digital Career Institute'><a className='linkCampus1' href="https://digitalcareerinstitute.org/">DCI</a></span> Hamburg on 2019 until 2020, 
-                        and now I work mostly as Frontend Developer and Graphic Designer.
+                        and now I work mostly as Graphic Designer UI Designer and Frontend Developer.
                     </p>
                 </div>
                 <div className='myidea'>
