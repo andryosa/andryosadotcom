@@ -54,7 +54,7 @@ const Portfolio = () => {
                                 <img className='newsimg' src={covcode4you} alt=""/>
                                 <div className='insert2'>
                                 <a className='link-port2' href='https://code4you.com/' target='_blank'>
-                                    Wordpress Website <br/> code4you.com
+                                    code4you.com
                                 </a>
                                 </div>
                     </div>
@@ -236,7 +236,7 @@ const Portfolio = () => {
                                 <img className='newsimg' src={covcode4you} alt=""/>
                                 <div className='insert2'>
                                 <a className='link-port2' href='https://code4you.com/' target='_blank'>
-                                    Wordpress Website <br/> code4you.com
+                                    code4you.com
                                 </a>
                                 </div>
                     </div>
@@ -249,7 +249,7 @@ const Portfolio = () => {
                                 <img className='newsimg' src={covnatur} alt=""/>
                                 <div className='insert2'>
                                 <a className='link-port2' href='https://naturheilpraxis-holthausen.de//' target='_blank'>
-                                    Wordpress Website <br/> naturheilpraxis-holthausen.de
+                                    naturheilpraxis-holthausen.de
                                 </a>
                                 </div>
                     </div>
