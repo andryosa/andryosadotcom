@@ -346,7 +346,7 @@ const Portfolio = () => {
                                 <img className='newsimgver' src={covfdev2} alt=""/>
                                 <div className='insertCalver'>
                                 <a className='link-port2' href='https://andryosa.github.io/Future-Developer-G1/' target='_blank'>
-                                    Website Task <br/> Future Developer
+                                    Website Task <br/> Future Developer 1
                                 </a>
                                 </div>
                         </div>
