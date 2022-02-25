@@ -9,7 +9,7 @@ import covcolor from '../image/port/covercoloring.png';
 import covgreetings from '../image/port/covergreeting.png';
 import covillu from '../image/port/coverillustration.png';
 import covfdev from '../image/port/coverfuturedev.png';
-import covfdev2 from '../image/port/coverfuturedev2.png';
+import covfdev2 from '../image/port/coverfuturdev2.png';
 import covmicrosite from '../image/port/covermicrosite.png';
 import covcal from '../image/port/covercalculator.png';
 import covcalver from '../image/port/covercalculatorver.png';
@@ -346,7 +346,7 @@ const Portfolio = () => {
                                 <img className='newsimgver' src={covfdev2} alt=""/>
                                 <div className='insertCalver'>
                                 <a className='link-port2' href='https://andryosa.github.io/Future-Developer-G1/' target='_blank'>
-                                    Website Task <br/> Future Developer 1
+                                    Website Task <br/> Future Developer
                                 </a>
                                 </div>
                         </div>
