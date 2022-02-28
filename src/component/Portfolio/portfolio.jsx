@@ -23,6 +23,9 @@ import covtradekarma from '../image/port/cover-tradekarma.png';
 import covnatur from '../image/port/cover-naturheilpraxis.png';
 import covcode4you from '../image/port/cover-code4you.png';
 import covfitness from '../image/port/cover-fitnessstudio.png';
+import covdelivery from '../image/port/cover-delivery.png';
+import covdelivery2 from '../image/port/cover-delivery2.png';
+
 
 
 
@@ -245,6 +248,19 @@ const Portfolio = () => {
                 </div>
             </div>
 
+            <div className='thema bigscreenhide'>
+                <div className='newsDiv'>
+                    <div className='news'>
+                                <img className='newsimg' src={covdelivery} alt=""/>
+                                <div className='insert2'>
+                                <a className='link-port2' href='https://www.figma.com/proto/qUuZz0Rue5GNiRzJVYIXES/Untitled?node-id=2%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A3' target='_blank'>
+                                    Delivery App
+                                </a>
+                                </div>
+                    </div>
+                </div>
+            </div>
+
             <div className='thema'>
                 <div className='newsDiv'>
                     <div className='news'>
@@ -340,7 +356,20 @@ const Portfolio = () => {
 
             <div className='portfolio-thirddDiv'>
 
-            <div className='themaCalver'>
+             <div className='themaCalver'>
+                    <div className='newsDivver'>
+                        <div className='newsver'>
+                                <img className='newsimgver' src={covdelivery2} alt=""/>
+                                <div className='insertCalver'>
+                                <a className='link-port2' href='https://www.figma.com/proto/qUuZz0Rue5GNiRzJVYIXES/Untitled?node-id=2%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A3' target='_blank'>
+                                    Delivery App
+                                </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='themaCalver'>
                     <div className='newsDivver'>
                         <div className='newsver'>
                                 <img className='newsimgver' src={covfdev2} alt=""/>
