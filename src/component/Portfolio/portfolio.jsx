@@ -283,7 +283,7 @@ const Portfolio = () => {
                     <div className='news'>
                                 <img className='newsimg' src={covroomsharing} alt=""/>
                                 <div className='insert2'>
-                                <a className='link-port2' href='https://code4you.com/' target='_blank'>
+                                <a className='link-port2' href='https://www.figma.com/proto/lAzZKVDLwZDSaADKaddJjp/Room-Sharing?node-id=4%3A3&scaling=scale-down&page-id=0%3A1' target='_blank'>
                                     Room Sharing
                                 </a>
                                 </div>
