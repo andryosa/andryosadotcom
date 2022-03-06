@@ -27,6 +27,7 @@ import covdelivery from '../image/port/cover-delivery.png';
 import covdelivery2 from '../image/port/cover-delivery2.png';
 import covdoctor from '../image/port/cover-doctor.png';
 import covdoctor2 from '../image/port/cover-doctor2.png';
+import covroomsharing from '../image/port/coverroomsharing.png';
 
 
 
@@ -280,6 +281,19 @@ const Portfolio = () => {
             <div className='thema'>
                 <div className='newsDiv'>
                     <div className='news'>
+                                <img className='newsimg' src={covroomsharing} alt=""/>
+                                <div className='insert2'>
+                                <a className='link-port2' href='https://code4you.com/' target='_blank'>
+                                    Room Sharing
+                                </a>
+                                </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='thema'>
+                <div className='newsDiv'>
+                    <div className='news'>
                                 <img className='newsimg' src={covcode4you} alt=""/>
                                 <div className='insert2'>
                                 <a className='link-port2' href='https://code4you.com/' target='_blank'>
@@ -395,7 +409,7 @@ const Portfolio = () => {
                                 </a>
                                 </div>
                         </div>
-                    </div>
+                    </div> 
                 </div>
 
                 <div className='themaCalver'>
